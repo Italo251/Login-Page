@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #17074d, #6d12de);
+
+}
+
+.container{
+    margin-top: 13rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 700px;
+    height: 500px;
+    background: black;
+    border-radius: 10px;
+}
+
+h1{
+    color: white;
+    padding-top: 75px;
+    padding-bottom: 4rem;
+    font-size: 65px;
+}
+
+.username{
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    border-radius: 20px;
+    outline: none;
+    margin-bottom: 2px;
+    border-color:aqua;
+    transition: all 0.3s ease;
+    color: white;
+    background: none;
+    text-align: center;
+}
+
+.username:focus{
+    font-size: 120%;
+    border-color: limegreen;
+}
+
+.password{
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    border-radius: 20px;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-color:aqua;
+    transition: all 0.3s ease;
+    color: white;
+    background: none;
+    text-align: center
+}
+
+.password:focus{
+    font-size: 120%;
+    border-color: limegreen;
+}
+
+.submit{
+    margin-top: 10px;
+    margin-bottom: 0.4rem;
+    border-radius: 9px;
+    color: white;
+    background: none;
+    border-color: aqua;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    padding: 12px
+
+}
+
+.submit:hover{
+    color:limegreen;
+}
